@@ -1,0 +1,21 @@
+{
+   "isMTMode" : false,
+   "proc" : [
+      {
+         "name" : "msedge.exe",
+         "title" : "菜鸟教程 - 学的不仅是技术，更是梦想！ - 个人 - Microsoft? Edge",
+         "type" : 0
+      },
+      {
+         "name" : "msedge.exe",
+         "title" : "菜鸟教程 - 学的不仅是技术，更是梦想！ - 个人[^&]*",
+         "type" : 0
+      },
+      {
+         "name" : "KillPro.exe",
+         "title" : "KillPro",
+         "type" : 0
+      }
+   ]
+}
+

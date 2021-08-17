@@ -1,0 +1,29 @@
+﻿// KillPro.idl: KillPro.exe 的类型库源
+
+// 此文件将由 MIDL 编译器处理以产生
+// 类型库(KillPro.tlb)。
+
+[ uuid(1700d99e-9961-475f-a786-ea674130a08b), version(1.0) ]
+library KillPro
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  CKillProDoc 的主调度接口
+
+	[ uuid(9f2c5c0d-e5fb-45d2-a011-f1ba402854ef) ]
+	dispinterface IKillPro
+	{
+		properties:
+
+		methods:
+	};
+
+	//  CKillProDoc 的类信息
+
+	[ uuid(a33eff31-ddbc-490e-848d-aaa811bdaf27) ]
+	coclass KillPro
+	{
+		[default] dispinterface IKillPro;
+	};
+};

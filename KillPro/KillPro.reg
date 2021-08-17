@@ -1,0 +1,17 @@
+﻿REGEDIT
+; 此 .REG 文件可能由 SETUP 程序使用。
+;   如果 SETUP 程序不可用，则以下条目将
+;   CWinApp::RegisterShellFileTypes 和 COleObjectFactory::UpdateRegistryAll
+;   在 InitInstance 中对下列项自动进行注册。
+
+
+HKEY_CLASSES_ROOT\KillPro.Application = KillPro Application
+
+
+HKEY_CLASSES_ROOT\KillPro.Application\CLSID = {a33eff31-ddbc-490e-848d-aaa811bdaf27}
+
+HKEY_CLASSES_ROOT\CLSID\{a33eff31-ddbc-490e-848d-aaa811bdaf27} = KillPro Application
+HKEY_CLASSES_ROOT\CLSID\{a33eff31-ddbc-490e-848d-aaa811bdaf27}\ProgId = KillPro.Application
+
+
+HKEY_CLASSES_ROOT\CLSID\{a33eff31-ddbc-490e-848d-aaa811bdaf27}\LocalServer32 = KillPro.EXE
